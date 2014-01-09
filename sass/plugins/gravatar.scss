@@ -1,0 +1,5 @@
+#gravatar {
+  text-align: center;
+
+  img { @include border-radius(50%); }
+}
