@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Top 10 Languages in 2014, so Lynda says"
+date: 2014-01-10 20:17:06 +0000
+comments: true
+categories: programming languages
+---
+
+[Lynda.com](http://lynda.com) the online training site have published what they think are going be the top 10 languages to know this year. All your usual suspects are in there but what has suprised me is the order of the list. Is this is a list set by trends in 2013, if so it seems to be that Java is still considered cool.
+
+Have a look and see what you think?
+
+#### [Top 10 Programming Languages to know in 2014](http://www.slideshare.net/lyndadotcom/top-10-programming-languages-to-know-in-2014)
