@@ -18,7 +18,7 @@
 	var appendCaption = function(){
 		$('.entry-content').each(function(i){
 			var _i = i;
-			$(this).find('img:not(.author-pic)').each(function(){
+			$(this).find('img').each(function(){
 				var alt = this.alt;
 
 				if (alt != ''){

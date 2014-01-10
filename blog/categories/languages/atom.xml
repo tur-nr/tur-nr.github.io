@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: languages | turnr]]></title>
+  <link href="http://tur-nr.github.io/blog/categories/languages/atom.xml" rel="self"/>
+  <link href="http://tur-nr.github.io/"/>
+  <updated>2014-01-10T20:48:02+00:00</updated>
+  <id>http://tur-nr.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Turner]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Top 10 Languages in 2014, so Lynda says]]></title>
+    <link href="http://tur-nr.github.io/blog/2014/01/10/top-10-languages-in-2014/"/>
+    <updated>2014-01-10T20:17:06+00:00</updated>
+    <id>http://tur-nr.github.io/blog/2014/01/10/top-10-languages-in-2014</id>
+    <content type="html"><![CDATA[<p><a href="http://lynda.com">Lynda.com</a> the online training site have published what they think are going be the top 10 languages to know this year. All your usual suspects are in there but what has suprised me is the order of the list. Is this is a list set by trends in 2013, if so it seems to be that Java is still considered cool.</p>
+
+<p>Have a look and see what you think?</p>
+
+<h4><a href="http://www.slideshare.net/lyndadotcom/top-10-programming-languages-to-know-in-2014">Top 10 Programming Languages to know in 2014</a></h4>
+]]></content>
+  </entry>
+  
+</feed>
