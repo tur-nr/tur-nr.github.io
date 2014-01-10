@@ -4,7 +4,7 @@
   <title><![CDATA[Category: node | turnr]]></title>
   <link href="http://tur-nr.github.io/blog/categories/node/atom.xml" rel="self"/>
   <link href="http://tur-nr.github.io/"/>
-  <updated>2014-01-09T23:27:41+00:00</updated>
+  <updated>2014-01-10T19:22:40+00:00</updated>
   <id>http://tur-nr.github.io/</id>
   <author>
     <name><![CDATA[Christopher Turner]]></name>
@@ -33,9 +33,9 @@
 
 <h4>Hello, Node.js!</h4>
 
-<p>I follow the movement of Web technologies religiously and one that was making alot of noise was <a href="http://nodejs.org" title="Node.js website">Node.js</a>. I know that server side JavaScript has been around since the 90s but it was in fact <a href="http://php.net" title="Php website">Php</a> that introduced me to it. When I was creating a simple CMS in <a href="http://symfony.com" title="Symfony website">Symfony2</a> I was using it&rsquo;s <a href="" title="Assetic Bundle repository">Assetic Bundle</a> for pre-compiling <a href="http://lesscss.org" title="Less website">Less</a>. Like any curious developer I wanted to know how <a href="https://github.com/kriswallsmith" title="Kris' Github page">Kris Wallsmith</a> (author) had created such a bundle. Yep you guessed it, <a href="http://nodejs.org" title="Node.js website">Node.js</a>!</p>
+<p>I follow the movement of Web technologies religiously and one that was making alot of noise was <a href="http://nodejs.org" title="Node.js website">Node.js</a>. I know that server side JavaScript has been around since the 90s but it was in fact <a href="http://php.net" title="Php website">Php</a> that introduced me to it when I was creating a simple CMS in <a href="http://symfony.com" title="Symfony website">Symfony2</a> I was using it&rsquo;s <a href="" title="Assetic Bundle repository">Assetic Bundle</a> for pre-compiling <a href="http://lesscss.org" title="Less website">Less</a>. Like any curious developer I wanted to know how <a href="https://github.com/kriswallsmith" title="Kris' Github page">Kris Wallsmith</a> (author) had created such a bundle. Yep you guessed it, <a href="http://nodejs.org" title="Node.js website">Node.js</a>!</p>
 
-<p>After playing with <a href="http://nodejs.org" title="Node.js website">Node.js</a> for the guts of a few months I slowly realised that I began to fall for its asynchronous environment. Writing web applications become faster, more modular and easier to understand. No more large frameworks with steap learn curves just lots of small libraries combined that can be used, re-shaped and augmented. Between <a href="http://php.net" title="Php website">Php</a> and <a href="http://nodejs.org" title="Node.js website">Node.js</a> it was becoming a case of:</p>
+<p>After playing with <a href="http://nodejs.org" title="Node.js website">Node.js</a> for the guts of a few months I slowly realised that I began to fall for its asynchronous environment. Writing web applications become faster, more modular and easier to understand. No more large frameworks with steap learning curves just lots of small libraries combined that can be used, re-shaped and augmented. Between <a href="http://php.net" title="Php website">Php</a> and <a href="http://nodejs.org" title="Node.js website">Node.js</a> it was becoming a case of:</p>
 
 <blockquote><p>Anything you can do I can do better,<br/>
 I can do anything better than you.</p>
