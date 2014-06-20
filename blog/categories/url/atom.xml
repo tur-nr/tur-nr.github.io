@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: url | turnr]]></title>
+  <link href="http://tur-nr.github.io/blog/categories/url/atom.xml" rel="self"/>
+  <link href="http://tur-nr.github.io/"/>
+  <updated>2014-06-21T00:09:29+01:00</updated>
+  <id>http://tur-nr.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Turner]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Clever way of extract URL information in JS]]></title>
+    <link href="http://tur-nr.github.io/blog/2014/06/20/clever-way-of-extract-url-information-in-js/"/>
+    <updated>2014-06-20T23:50:15+01:00</updated>
+    <id>http://tur-nr.github.io/blog/2014/06/20/clever-way-of-extract-url-information-in-js</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s a nice little way to extract URL information from a string. Rather than
+trying to parse/split the string into its parts (protocol, host, path, query)
+just use an <code>a</code> tag and access it&rsquo;s properties to get the relative information
+you want.</p>
+
+<p>``` js
+var url    = &lsquo;<a href="https://www.google.co.uk/search?q=hello">https://www.google.co.uk/search?q=hello</a>&rsquo;
+var anchor = document.createElement(&lsquo;a&rsquo;);</p>
+
+<p>anchor.href = url;</p>
+
+<p>var protocol = anchor.protocol; // &lsquo;<a href="https:">https:</a>&rsquo;
+var host     = anchor.hostname; // &lsquo;google.com&rsquo;
+var path     = anchor.pathname; // &lsquo;/search&rsquo;
+var query    = anchor.search;   // &lsquo;?q=hello&rsquo;
+```</p>
+
+<p>Simples.</p>
+]]></content>
+  </entry>
+  
+</feed>
