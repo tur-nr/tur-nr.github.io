@@ -4,7 +4,7 @@
   <title><![CDATA[Category: node | turnr]]></title>
   <link href="http://tur-nr.github.io/blog/categories/node/atom.xml" rel="self"/>
   <link href="http://tur-nr.github.io/"/>
-  <updated>2014-06-21T00:09:29+01:00</updated>
+  <updated>2014-07-07T20:15:04+10:00</updated>
   <id>http://tur-nr.github.io/</id>
   <author>
     <name><![CDATA[Christopher Turner]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Goodbye Php, hello Node.js!]]></title>
-    <link href="http://tur-nr.github.io/blog/2014/01/08/goodbye-php-hello-node-js/"/>
-    <updated>2014-01-08T23:37:24+00:00</updated>
-    <id>http://tur-nr.github.io/blog/2014/01/08/goodbye-php-hello-node-js</id>
+    <link href="http://tur-nr.github.io/blog/2014/01/09/goodbye-php-hello-node-js/"/>
+    <updated>2014-01-09T10:37:24+11:00</updated>
+    <id>http://tur-nr.github.io/blog/2014/01/09/goodbye-php-hello-node-js</id>
     <content type="html"><![CDATA[<h4>Summer 2013</h4>
 
 <p>The start of summer &lsquo;13 saw a shift in my career. Near twelve years in the making to become a <a href="http://php.net" title="Php website">Php</a> developer, twelve years that started in my bedroom. From building bit torrent sites, practicing with the latest MVC frameworks, getting through several years of study and a few in the actual industry, I took a chance to become a ninja.</p>

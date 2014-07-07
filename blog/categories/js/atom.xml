@@ -4,7 +4,7 @@
   <title><![CDATA[Category: js | turnr]]></title>
   <link href="http://tur-nr.github.io/blog/categories/js/atom.xml" rel="self"/>
   <link href="http://tur-nr.github.io/"/>
-  <updated>2014-06-21T00:09:29+01:00</updated>
+  <updated>2014-07-07T20:15:04+10:00</updated>
   <id>http://tur-nr.github.io/</id>
   <author>
     <name><![CDATA[Christopher Turner]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Clever way of extract URL information in JS]]></title>
-    <link href="http://tur-nr.github.io/blog/2014/06/20/clever-way-of-extract-url-information-in-js/"/>
-    <updated>2014-06-20T23:50:15+01:00</updated>
-    <id>http://tur-nr.github.io/blog/2014/06/20/clever-way-of-extract-url-information-in-js</id>
+    <link href="http://tur-nr.github.io/blog/2014/06/21/clever-way-of-extract-url-information-in-js/"/>
+    <updated>2014-06-21T08:50:15+10:00</updated>
+    <id>http://tur-nr.github.io/blog/2014/06/21/clever-way-of-extract-url-information-in-js</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a nice little way to extract URL information from a string. Rather than
 trying to parse/split the string into its parts (protocol, host, path, query)
 just use an <code>a</code> tag and access it&rsquo;s properties to get the relative information
@@ -30,7 +30,7 @@ var anchor = document.createElement(&lsquo;a&rsquo;);</p>
 <p>anchor.href = url;</p>
 
 <p>var protocol = anchor.protocol; // &lsquo;<a href="https:">https:</a>&rsquo;
-var host     = anchor.hostname; // &lsquo;google.com&rsquo;
+var host     = anchor.hostname; // &lsquo;google.co.uk&rsquo;
 var path     = anchor.pathname; // &lsquo;/search&rsquo;
 var query    = anchor.search;   // &lsquo;?q=hello&rsquo;
 ```</p>
@@ -41,9 +41,9 @@ var query    = anchor.search;   // &lsquo;?q=hello&rsquo;
   
   <entry>
     <title type="html"><![CDATA[Goodbye Php, hello Node.js!]]></title>
-    <link href="http://tur-nr.github.io/blog/2014/01/08/goodbye-php-hello-node-js/"/>
-    <updated>2014-01-08T23:37:24+00:00</updated>
-    <id>http://tur-nr.github.io/blog/2014/01/08/goodbye-php-hello-node-js</id>
+    <link href="http://tur-nr.github.io/blog/2014/01/09/goodbye-php-hello-node-js/"/>
+    <updated>2014-01-09T10:37:24+11:00</updated>
+    <id>http://tur-nr.github.io/blog/2014/01/09/goodbye-php-hello-node-js</id>
     <content type="html"><![CDATA[<h4>Summer 2013</h4>
 
 <p>The start of summer &lsquo;13 saw a shift in my career. Near twelve years in the making to become a <a href="http://php.net" title="Php website">Php</a> developer, twelve years that started in my bedroom. From building bit torrent sites, practicing with the latest MVC frameworks, getting through several years of study and a few in the actual industry, I took a chance to become a ninja.</p>

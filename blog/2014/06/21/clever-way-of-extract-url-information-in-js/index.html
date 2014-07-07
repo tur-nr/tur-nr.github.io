@@ -3,11 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Top 10 Languages in 2014, so Lynda says  | turnr</title>
+	<title>Clever way of extract URL information in JS  | turnr</title>
 
 <meta name="author" content="Christopher Turner"> 
 
-<meta name="description" content="Lynda.com the online training site have published what they think are going be the top 10 languages to know this year. All your usual suspects are in &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Here&rsquo;s a nice little way to extract URL information from a string. Rather than
+trying to parse/split the string into its parts (protocol, host &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -93,12 +94,34 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Top 10 Languages in 2014, So Lynda Says</h2>
-	<div class="entry-content"><p><a href="http://lynda.com">Lynda.com</a> the online training site have published what they think are going be the top 10 languages to know this year. All your usual suspects are in there but what has suprised me is the order of the list. Is this is a list set by trends in 2013, if so it seems to be that Java is still considered cool.</p>
+	<h2 class="title">Clever Way of Extract URL Information in JS</h2>
+	<div class="entry-content"><p>Here&rsquo;s a nice little way to extract URL information from a string. Rather than
+trying to parse/split the string into its parts (protocol, host, path, query)
+just use an <code>a</code> tag and access it&rsquo;s properties to get the relative information
+you want.</p>
 
-<p>Have a look and see what you think?</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">url</span>    <span class="o">=</span> <span class="s1">&#39;https://www.google.co.uk/search?q=hello&#39;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">anchor</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="nx">url</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">var</span> <span class="nx">protocol</span> <span class="o">=</span> <span class="nx">anchor</span><span class="p">.</span><span class="nx">protocol</span><span class="p">;</span> <span class="c1">// &#39;https:&#39;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">host</span>     <span class="o">=</span> <span class="nx">anchor</span><span class="p">.</span><span class="nx">hostname</span><span class="p">;</span> <span class="c1">// &#39;google.co.uk&#39;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">path</span>     <span class="o">=</span> <span class="nx">anchor</span><span class="p">.</span><span class="nx">pathname</span><span class="p">;</span> <span class="c1">// &#39;/search&#39;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">query</span>    <span class="o">=</span> <span class="nx">anchor</span><span class="p">.</span><span class="nx">search</span><span class="p">;</span>   <span class="c1">// &#39;?q=hello&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<h4><a href="http://www.slideshare.net/lyndadotcom/top-10-programming-languages-to-know-in-2014">Top 10 Programming Languages to know in 2014</a></h4>
+
+<p>Simples.</p>
 </div>
 
 
@@ -115,18 +138,18 @@ $(document).ready(
   
 
 
-<time datetime="2014-01-10T20:17:06+00:00" pubdate data-updated="true">Jan 10<span>th</span>, 2014</time></div>
+<time datetime="2014-06-21T08:50:15+10:00" pubdate data-updated="true">Jun 21<span>st</span>, 2014</time></div>
 	
 
 <div class="tags">
 
-	<a class='category' href='/blog/categories/languages/'>languages</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
+	<a class='category' href='/blog/categories/js/'>js</a>, <a class='category' href='/blog/categories/url/'>url</a>
 
 </div>
 
 
 	
-		<span class="comments"><a href="/blog/2014/01/10/top-10-languages-in-2014/#disqus_thread">Comments</a></span>
+		<span class="comments"><a href="/blog/2014/06/21/clever-way-of-extract-url-information-in-js/#disqus_thread">Comments</a></span>
 	
 </div></article>
 
@@ -177,8 +200,8 @@ Powered by Octopress.
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://tur-nr.github.io/blog/2014/01/10/top-10-languages-in-2014/';
-        var disqus_url = 'http://tur-nr.github.io/blog/2014/01/10/top-10-languages-in-2014/';
+        var disqus_identifier = 'http://tur-nr.github.io/blog/2014/06/21/clever-way-of-extract-url-information-in-js/';
+        var disqus_url = 'http://tur-nr.github.io/blog/2014/06/21/clever-way-of-extract-url-information-in-js/';
         var disqus_script = 'embed.js';
       
     (function () {
